@@ -1,6 +1,9 @@
-### Hi there 👋
+### Hello my friends
 
-### -->
-## - 🔭 I’m currently working on my discord bot = MiTaskBOT (https://bot.mitask.space)
-## - 🌱 I’m currently want learn C#..
-### -->
+I am MrMasrozYTLIVE/MiTask/Andrey, I'm a NodeJs (Discord.JS Framework) developer. Discord: 𝕸𝖎𝕿𝖆𝖘𝖐#0001
+
+Current Projects: 
+A discord bot: https://bot.mitask.space
+
+
+![MrMasrozYTLIVE's github stats](https://github-readme-stats.vercel.app/api?username=mrmasrozytlive&show_icons=true&theme=synthwave&count_private=true)

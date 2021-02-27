@@ -1,0 +1,12 @@
+{
+  "homepage": "https://vk.com/MrMasrozYTLIVE/",
+  "promos": 
+  {
+    "1.12.2-latest": "SNAPSHOT-1",
+    "1.12.2-recommended": "SNAPSHOT-1"
+  },
+  "1.12.2": 
+  {
+    "SNAPSHOT-1": "MiTask (27.02.2021): Started Developing"
+  }
+}

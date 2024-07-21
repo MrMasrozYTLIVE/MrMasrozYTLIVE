@@ -20,7 +20,7 @@ jobs:
           
           # Options
           user: MrMasrozYTLIVE
-          template: terminal
+          #template: terminal
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Moscow
           plugin_isocalendar: yes

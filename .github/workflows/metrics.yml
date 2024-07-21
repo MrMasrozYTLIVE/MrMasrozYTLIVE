@@ -1,0 +1,34 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: mrmasrozytlive/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: MrMasrozYTLIVE
+          template: terminal
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Moscow
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 5
+          plugin_wakatime_repositories_visibility: all
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_user: MiTask

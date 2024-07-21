@@ -23,12 +23,14 @@ jobs:
           #template: terminal
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Moscow
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           plugin_wakatime: yes
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
           plugin_wakatime_repositories_visibility: all
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: MiTask
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
